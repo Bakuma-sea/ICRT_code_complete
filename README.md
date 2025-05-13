@@ -132,7 +132,7 @@ The final ranking not only considers the success rate of bypassing security mech
 5. **Aggregation Algorithms: Huge vs SP Elo**
 Both Huge and SP Elo are aggregation algorithms, but they focus on different aspects. Elo emphasizes the order of wins and losses, while SP Elo focuses on the stability of the participants.
 
-## Code of Ranking
+## Code of Rankings
 
 ### 1. ELO Rating Update Script
 
