@@ -134,14 +134,14 @@ Both Huge and SP Elo are aggregation algorithms, but they focus on different asp
 
 ## Code of Rankings
 
-### 1. ELO Rating Update Script (EloRank.py)
+### 1. ELO Rating Update Script 
 
 This script calculates and updates the ELO ratings for six methods based on match results. It initializes all methods with a rating of 1500 and updates ratings after processing all matches. The ratings are adjusted based on win rates, with results accumulated and applied at the end to avoid sequence effects.
 
-### 2. HodgeRank Ranking Script (HodgeRank.py)
+### 2. HodgeRank Ranking Script 
 
 This script calculates player rankings from match data using the HodgeRank algorithm. It builds a design matrix, computes ranking scores, and normalizes them to a [0, 1] range.
 
-### 3. Spectral Ranking Algorithm (SpectralRank.py)
+### 3. Spectral Ranking Algorithm
 
 This script computes player rankings using the Rank Centrality algorithm based on match data. It first converts match results into a win-count transition matrix, then uses eigen-decomposition to compute a probability distribution of player rankings.Provide match data in the format `(player1, player2, player1_wins, player2_wins)` to run the code.
